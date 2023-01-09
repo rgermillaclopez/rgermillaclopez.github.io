@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #FFD3F0;
+    padding-top: 3vw; 
+    width: 100vw;
+    padding-bottom: 4vw;
+}
+
+h1{
+        
+    width: 100vw;
+    text-align: center;   
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    margin-top: 2%;
+    padding: 1%;
+    font-family: 'Michroma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    top: 15vw;
+    
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menu{color: black;}
+
+.menu:hover{color:black;}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    
+    width: 40vw;
+    left: 40vw;
+    top: 300px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.socialmedia{
+    width: 5vw;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 35px;
+    float: right;
+
+}
+
+.socialmedia .box-sm img{
+    
+    margin-top: 15vw;
+    width: 5%;
+    height: 5%;
+}
+
+.grande{
+  
+  
+}
+
+.carrousel {    
+    margin: auto;  
+    width: calc( 120% / 3);
+    max-width: 120em;
+    padding: 2em;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .carrousel .container {
+    width: 300%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    color: black;
+    border-radius: 1em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+    
+  }
+  
+  .carrousel .imgproj {
+    width: calc( 100% / 3);
+    
+    min-height: 10vh;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: white;
+
+  }
+  
+  .carrousel .puntos {
+    width: 100%;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .carrousel .punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: rgb(224, 176, 224);
+  } 
+  
+  .carrousel .punto.activo {
+    background-color: gray;
+  }
+
+
+  .imgInvisible{
+    
+  }
+
+
+footer{
+    
+    width: 30vw;
+    top: 60vw;
+    left: 40vw;
+    
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
